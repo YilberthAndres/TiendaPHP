@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boton{
+    color: white;
+    border: 1px solid white;
+    margin-left: 15px;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-radius: 8px;
+    transition: .2s;
+}
+.boton:hover{
+    border: 1px solid gray;
+    color: gray;
+}
+.fondo-login{
+    background-color: rgba(255, 255, 255, 0.938);
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.login{
+    color: wheat;
+    margin: auto;
+    border: 1px solid rgb(255, 254, 254);
+    padding: 20px;
+    border-radius: 6px;
+    background-color: rgb(51, 47, 47);
+}
+.icon, .titulo{
+    text-align: center;
+    color: white;
+}
+.titulo{
+    margin-bottom: 12px;
+}
+.box-eye{
+    position: relative;
+}
+.box-eye button{
+    border: none;
+    position: absolute;
+}
+.ver_password{
+    position: absolute;
+    top: 12px;
+    left: 267px;
+    color: rgb(51, 47, 47);
+    cursor: pointer;
+}
+
+
