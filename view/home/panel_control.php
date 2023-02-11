@@ -1,4 +1,5 @@
 <?php
+    ob_start(); 
     require_once('../head/head.php');
     if(empty($_SESSION['usuario'])){
         header("Location:login.php");

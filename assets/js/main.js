@@ -8,4 +8,4 @@ function mostrarContraseña(idPassword, idIcon){
         inputPassword.type = "password";
         icon.classList.replace("fa-eye-slash","fa-eye");
     }
-}
+} 
